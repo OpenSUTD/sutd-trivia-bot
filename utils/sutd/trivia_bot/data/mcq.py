@@ -22,11 +22,6 @@ questions = [
     {
         "question": "What is the Hex color code of SUTD Red?",
         "correct_answer": "#990033",
-        "wrong_answers": ["#660022", "#52001B", "#E0004B"],
-    },
-    {
-        "question": "What is the Hex color code of SUTD Red?",
-        "correct_answer": "#990033",
         "wrong_answers": ["#660022", "#330011"],
     },
     {
