@@ -19,4 +19,29 @@ questions = [
         "correct_answer": "Burger and Jacobi",
         "wrong_answers": ["Yamaha", "Steinway & Sons", "Kawai"],
     },
+    {
+        "question": "What is the Hex color code of SUTD Red?",
+        "correct_answer": "#990033",
+        "wrong_answers": ["#660022", "#330011"],
+    },
+    {
+        "question": "What is the Hex color code of SUTD Black?",
+        "correct_answer": "#000000",
+        "wrong_answers": ["#0A0A0A", "#1F1F1F"],
+    },
+    {
+        "question": "What is in Pi Lab?",
+        "correct_answer": "2D Printers",
+        "wrong_answers": ["Ovens", "Computers", "3D Printers"],
+    },
+    {
+        "question": "Which building does blk 51 connects to?",
+        "correct_answer": "blk 59",
+        "wrong_answers": ["blk 57", "blk 55", "blk 53", "blk 51 doesn't exist"],
+    },
+    {
+        "question": "Where is root cove?",
+        "correct_answer": "2.311",
+        "wrong_answers": ["1.311", "3.311", "5.311"],
+    },
 ]
