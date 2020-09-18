@@ -390,7 +390,7 @@ class GameMaster:
                 self.bot.send_message(text="Starting game!", chat_id=self.chat_id)
                 response = self.sfn_client.start_execution(
                     stateMachineArn=self.state_machine_arn,
-                    input=json.dumps({"chat_id": self.chat_id}),
+                    input=json.dumps({"chat_id": self.chat_id, "questions_to_ask": 10}),
                 )
                 current_game_state.step_function_execution_arn = response[
                     "executionArn"

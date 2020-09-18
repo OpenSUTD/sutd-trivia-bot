@@ -23,7 +23,7 @@ OBJ_GRAPH = pinject.new_object_graph(
 
 
 def lambda_handler(event, context):
-    questions_to_ask = event.get("questions_to_ask")
+    questions_to_ask = event.get("questions_to_ask", 10)
     question_repository: QuestionRepository = OBJ_GRAPH.provide(QuestionRepository)
     all_question_ids = list(question_repository.list_ids())
 
